@@ -288,6 +288,7 @@ section{
 }
 .footer-main-container{
   gap: 110px;
+  margin: 0 auto;
   padding: 60px 150px; 
   background-color: rgba(0, 0, 0, 0.007);
 }
@@ -379,15 +380,29 @@ section{
   font-size: 1.25rem;
 }
 /* colorful  */
+.colorful-parent-c{
+  margin-top: 10px;
+}
 .colorful-title{
   font-size: 1.25rem;
 }
 .colorful-container {
   height:275px;
+  
 }
 .colorful-content{
   margin-top: 70px;
 }
+/* footer  */
+.footer-main-container{
+  flex-direction: column;
+  padding:10px 20px;
+  gap: 0px;
+}
+.social-img-footer{
+  margin-bottom: 50px;
+}
+
 
 
 }
