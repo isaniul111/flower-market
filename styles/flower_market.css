@@ -247,8 +247,6 @@ section{
   max-width:1440px;
   height:533px;
   background-image: url('/assets/news-letter-bg.png');
-  background-size: contain;    
-  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -388,7 +386,9 @@ section{
 }
 .colorful-container {
   height:275px;
-  
+}
+#submit-btn{
+  width:100px;
 }
 .colorful-content{
   margin-top: 70px;
