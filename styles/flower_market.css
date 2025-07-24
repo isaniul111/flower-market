@@ -128,33 +128,59 @@ section{
 }
 /* flower lover section style begains hare  */
 .f-container{
+  position: relative;
   max-width: 1140px;
+  max-height: 597px;
   gap:60px;
   margin: 0 auto;
 }
-.image-f{
-  width:540px;
-}
 .trust-div-contain{
-  width:286px;
+  max-width: 280px;
+  position:absolute;
+   top: -127px;
+  left: 350px;
+}
+.trusted-badge{
+  width: 100%;
+}
+.image-f{
+  max-width: 540px;
 }
 .flower-store-img{
   width: 100%;
 }
-/* .trusted-badge{
-  width: 100%;
-  position:absolute;
-  top:px;
-} */
- 
 .flover-lover-container{
-  width:540px;
-  justify-content: center;
+  max-width: 540px;
+  max-height: 521px;
+  margin-top: 38px;
+}
+.f-lover{
+  position: relative;
+}
+.lover-desc-container{
+  max-width: 420px;
+}
+/* deal section style starts hare  */
+.deals{
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+}
+.deal-title{
+  margin-bottom: 10px;
+}
+.deals-desc-container{
+  max-width: 630px;
+  margin: 0 auto;
+}
+/* deals image style begains hare  */
+.deals-images{
+  max-width: 1140px;
   margin:0 auto;
+  
 }
-.lover-desc{
-  font-size: 1.375rem;
-}
+
+
 
 
 /* media query section start hare  */
@@ -179,6 +205,24 @@ section{
   .card-parent{
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
+  }
+  /* flower lover  */
+  .f-container{
+    flex-direction: column;
+    gap: 18px;
+  }
+  .trust-div-contain{
+    display: none;
+  }
+  .lover-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .flover-lover-container{
+    margin-top:0px;
+  }
+  .deals{
+    margin-top: 300px;
   }
   
 }
