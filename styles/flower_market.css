@@ -186,10 +186,10 @@ section{
   border-radius: 14px;
 }
 .bloom{
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/deal-bloom.png');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/deal-bloom.png');
 }
 .ana{
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/deal-ana.png');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/deal-ana.png');
   margin-top: 25px;
 }
 .zabo{
@@ -197,13 +197,13 @@ section{
   max-width:753px;
   max-height:423px;
   border-radius: 14px;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('/assets/deal-zabo.png');
+  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('./assets/deal-zabo.png');
 }
 
 .bg-img {
   /* position: absolute; */
   inset: 0;
-  background-image: url('/assets/deal-bloom.png'); /* Use correct image per box */
+  background-image: url('./assets/deal-bloom.png'); /* Use correct image per box */
   background-size: cover;
   background-position: center;
   filter: blur(8px);
@@ -246,7 +246,7 @@ section{
   margin: 0 auto;
   max-width:1440px;
   height:533px;
-  background-image: url('/assets/news-letter-bg.png');
+  background-image: url('./assets/news-letter-bg.png');
   background-position: center;
 }
 
